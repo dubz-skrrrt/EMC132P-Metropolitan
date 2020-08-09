@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4571372915599519362}
   - component: {fileID: 3708782635889680967}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: designroof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,11 +122,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087413723874096152}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.48510647, y: 0.51149994, z: -0.2583}
-  m_LocalScale: {x: 0.48, y: 0.02, z: 0.024468083}
+  m_LocalPosition: {x: -0.49032265, y: 1.3999939, z: -0.03760004}
+  m_LocalScale: {x: 0.96, y: 4, z: 0.02473118}
   m_Children: []
-  m_Father: {fileID: 2289048343480478593}
-  m_RootOrder: 4
+  m_Father: {fileID: 7344070014827000676}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &5081670381623824949
 MeshFilter:
@@ -217,11 +217,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3537166734449985427}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.48936173, y: 0.51149994, z: -0.2583}
-  m_LocalScale: {x: 0.48, y: 0.02, z: 0.024468083}
+  m_LocalPosition: {x: 0.4946237, y: 1.3999939, z: -0.03760004}
+  m_LocalScale: {x: 0.96, y: 4, z: 0.02473118}
   m_Children: []
-  m_Father: {fileID: 2289048343480478593}
-  m_RootOrder: 3
+  m_Father: {fileID: 7344070014827000676}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &2328287241773216684
 MeshFilter:
@@ -312,11 +312,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4345430186037800293}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.51149994, z: -0.49199998}
-  m_LocalScale: {x: 1, y: 0.02, z: 0.0115}
+  m_LocalPosition: {x: 0, y: 1.3999939, z: -0.505}
+  m_LocalScale: {x: 1.0107527, y: 4, z: 0.023}
   m_Children: []
-  m_Father: {fileID: 2289048343480478593}
-  m_RootOrder: 2
+  m_Father: {fileID: 7344070014827000676}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6613640715372454121
 MeshFilter:
@@ -412,9 +412,6 @@ Transform:
   m_Children:
   - {fileID: 5465305001529515483}
   - {fileID: 7344070014827000676}
-  - {fileID: 6527328655038175162}
-  - {fileID: 8028396835184795549}
-  - {fileID: 8650814537736385616}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -493,7 +490,7 @@ GameObject:
   - component: {fileID: 7017690637467140207}
   - component: {fileID: 2237686949568696773}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -509,7 +506,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5045, z: -0.23949999}
   m_LocalScale: {x: 0.9893617, y: 0.005, z: 0.5}
-  m_Children: []
+  m_Children:
+  - {fileID: 6527328655038175162}
+  - {fileID: 8028396835184795549}
+  - {fileID: 8650814537736385616}
   m_Father: {fileID: 2289048343480478593}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

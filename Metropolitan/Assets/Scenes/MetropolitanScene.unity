@@ -2747,6 +2747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building4
       objectReference: {fileID: 0}
+    - target: {fileID: 8080996257894536560, guid: dd5d027d6b7f52145be65fce9d6372d7, type: 3}
+      propertyPath: m_Name
+      value: roof
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd5d027d6b7f52145be65fce9d6372d7, type: 3}
 --- !u!1001 &3835661563205331772
